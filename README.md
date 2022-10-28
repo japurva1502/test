@@ -61,7 +61,7 @@ inspect messages inside any given topic:
 The console is exposed at `http://127.0.0.1:28080` and does not require authentication. It's intended for local use only.
 
 ## Running this poc with Dependency Track
-Follow the below steps to run this poc in integration with dependency track for an end to end test. Currently, we have been able to implement sending of events from DT to a topic which is being polled by this poc application. 
+Follow the below steps to run this poc in integration with dependency track for an end to end test. Currently, we have been able to implement sending of events from DT to a topic which is being polled by this poc application..
 - Use this branch of dependency track backend server from git: https://github.com/sahibamittal/dependency-track/tree/internal-dt-latest
 - Run the dependency track api server using provided maven <b>jetty profile</b>.
 - Use this branch of dependency track front end from git: `https://github.com/sahibamittal/dependency-track-frontend/tree/internal-dt-latest`
